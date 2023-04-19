@@ -1,0 +1,103 @@
+@media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  @media (max-width:450px){
+  
+    html{
+        font-size: 50%;
+    }
+  
+  }
+  .navbar .icon {
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media (max-width:768px){
+  
+    #menu-btn{
+        display: initial;
+    }
+    .header{
+      height: 150px;
+    }
+  
+  }
+  
+  @media (max-width:780px){
+  
+    html{
+        font-size: 55%;
+    }
+  
+    .header{
+        padding: 2rem;
+    }
+  
+    /* div{
+        padding:.3rem;
+    } */
+    .icons-container{
+      padding: 2.5rem;
+    }
+  }
+  @media (max-width:450px){
+    .home .content h3{
+        left: 1.5rem;
+        font-size: 4rem;
+    }
+    .home .content p{
+        left: 6%;
+        font-size: 30px;
+    }
+   .box3{
+    left:10%;
+    font-size:30px;
+   }
+    .box1 img{
+        width: 100px;
+        height: 80px;
+    }
+    .btn2{
+        left: 30%;
+    }
+   
+    .box2{
+    top: -19%;
+    }
+    .box1 a{
+        padding: .5rem;
+      left: 12.5rem;
+    }
+    .home{
+        overflow-x:hidden;
+    }
+    .footer .box-container{
+        display: block;
+    }
+    .heading .m1{
+      font-size: 30px;
+      margin: 50% 50%;
+    }
+
+  }
+  

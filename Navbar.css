@@ -1,0 +1,41 @@
+.box1 a{
+    /* padding-top: 1rem; */
+    position: relative;
+    bottom: 11rem;
+    left: 60%;
+    color: black;
+    padding: .9rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+   line-height: 1.5;
+}
+.box1{
+  overflow: hidden;
+    background-color:lightseagreen;
+    height: 110px;
+}
+.box1 a:hover{
+    color: yellow;
+  }
+  .box2{
+    font-size: 2rem;
+    position: relative;
+    left: 13%;
+    top: -4.7rem;
+  }
+  .button2 
+{ 
+  position: relative;
+  top: 3rem;
+  padding: 20px 30px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: lightseagreen;
+  border-radius: 2rem;
+  box-shadow: 0 .5rem #999;
+  text-transform: uppercase;
+}
+      

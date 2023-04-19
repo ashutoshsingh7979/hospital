@@ -1,0 +1,57 @@
+.services .box-container{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+  }
+  .services .box-container .box{
+    background:#fff;
+    border-radius: 2.5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border: 3px solid  lightseagreen;
+    margin: .2rem;
+    padding: 2.5rem;
+  }
+  
+  .services .box-container .box i{
+    color: var(--green);
+    font-size: 5rem;
+    padding-bottom: .5rem;
+  }
+  
+  .services .box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding:.5rem 0;
+  }
+  
+  .services .box-container .box p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+  
+  .button 
+  {
+    padding: 20px 30px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: lightseagreen;
+    border-radius: 2rem;
+    box-shadow: 0 .5rem #999;
+    text-transform: uppercase;
+  }
+  
+  .button:hover 
+  {
+    background-color: yellowgreen
+  }
+  
+  .button:active {
+    box-shadow: 0 5px rgb(25, 25, 25);
+    transform: translateY(5px);
+  }
+  
